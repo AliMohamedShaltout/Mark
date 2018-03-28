@@ -8,7 +8,8 @@ import { Router } from '@angular/router';
 export class RegisterComponent {
   credentials: TokenPayload = {
     email: '',
-    name: '',
+    fname: '',
+    mname:'',
     password: ''
   };
 
