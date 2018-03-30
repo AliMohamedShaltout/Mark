@@ -16,6 +16,19 @@ var userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  lname: {
+    type: String,
+    required: true
+  },
+  username: {
+    type: String,
+    unique:true,
+    required: true
+  },
+  dateofbirth: {
+    type: Date,
+    required: true
+  },
   hash: String,
   salt: String
 });

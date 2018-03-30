@@ -18,8 +18,12 @@ module.exports.register = function(req, res) {
 
   var user = new User();
 
-  user.fname = req.body.fname;
-  user.mname = req.body.mname;
+  user.fname=req.body.fname;
+  user.mname=req.body.mname;
+  user.lname=req.body.lname;
+  user.username=req.body.username;
+  user.dateofbirth=req.body.dateofbirth;
+
 
   user.email = req.body.email;
 

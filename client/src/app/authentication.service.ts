@@ -9,7 +9,9 @@ export interface UserDetails {
   email: string;
   fname: string;
   mname: string;
-
+  lname:string;
+  username:string;
+  dateofbirth:Date;
   exp: number;
   iat: number;
 }
@@ -23,6 +25,9 @@ export interface TokenPayload {
   password: string;
   fname?: string;
   mname?: string;
+  lname?:string;
+  username?:string;
+  dateofbirth?:Date;
 
 }
 

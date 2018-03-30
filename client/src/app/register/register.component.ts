@@ -10,6 +10,9 @@ export class RegisterComponent {
     email: '',
     fname: '',
     mname:'',
+    lname:'',
+    username:'',
+    dateofbirth:null,
     password: ''
   };
 
